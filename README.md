@@ -12,6 +12,14 @@ Created a CNN model using Keras. The model consists of two convolutional layers 
 # Training the Model
 The model was compiled using mean squared error loss and the Adam optimizer. Trained the model for 30 epochs using a batch size of 32. Evaluated the model on the validation set during training to monitor its performance.
 
+# Dependencies
+<ul>
+<li>tensorflow</li>
+<li>keras</li>
+<li>numpy</li>
+<li>matplotlib</li>
+</ul>
+
 # Results
 The model has less than 100K learnable parameters and achieved an accuracy of 75.14% on the validation set.
 
@@ -19,3 +27,12 @@ The model has less than 100K learnable parameters and achieved an accuracy of 75
 
 # Conclusion
 In this notebook, I have demonstrated how to create and train a CNN model using Keras on the CIFAR-10 dataset. The model achieved good accuracy on the validation set and have shown that a simpler model can also achieve decent accuracy. This notebook can serve as a starting point for further experimentation with CNNs on image classification tasks.
+
+
+# Acknowledgements
+The CIFAR-10 dataset is a widely used dataset for image classification tasks. The dataset was downloaded from the Keras library.
+
+# Author
+Santhos Vadivel </br>
+Email - ssansh3@gmail.com </br>
+LinkedIn - https://www.linkedin.com/in/santhosh-vadivel-2141b8126/ </br>
